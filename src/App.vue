@@ -1,12 +1,23 @@
 <template>
-  <div></div>
+  <div>
+    <MenuLeft />
+  </div>
 </template>
 
 <script>
+import MenuLeft from "./components/MenuLeft.vue";
 export default {
   name: "App",
-  components: {},
+
+  components: {
+    MenuLeft,
+  },
 };
 </script>
+MenuLeft
 
-<style></style>
+<style>
+* {
+  font-family: "Poppins", sans-serif;
+}
+</style>

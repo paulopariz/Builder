@@ -5,7 +5,9 @@ module.exports = {
     "./src/**/*.{html,js,vue}"
   ],
   theme: {
-    extend: {},
+    extend: {
+     
+    },
   },
   plugins: [
     require("daisyui")
