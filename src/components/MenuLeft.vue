@@ -1,6 +1,6 @@
 <template>
   <div
-    class="fixed w-20 py-6 h-full flex flex-col justify-between items-center border-2 border-base-200"
+    class="w-20 py-6 h-screen flex flex-col justify-between items-center border-2 border-base-200 bg-white"
   >
     <div
       class="w-full flex justify-center border-2 border-x-0 border-t-0 border-b-base-200 pb-6"
@@ -8,7 +8,7 @@
       <img src="../assets/icons/logo.svg" />
     </div>
 
-    <div class="-mt-52 flex flex-col gap-10">
+    <div class="flex flex-col gap-10">
       <div v-for="icon in sectionIcon" :key="icon" class="flex items-center">
         <img
           :src="icon.img"
