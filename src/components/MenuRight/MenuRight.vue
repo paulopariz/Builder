@@ -17,14 +17,17 @@
 
     <div>
       <LayoutDrop />
+
+      <SpacingDrop />
     </div>
   </div>
 </template>
 
 <script>
 import LayoutDrop from "./LayoutDrop.vue";
+import SpacingDrop from "./SpacingDrop.vue";
 export default {
-  components: { LayoutDrop },
+  components: { LayoutDrop, SpacingDrop },
   name: "MenuRight",
 };
 </script>

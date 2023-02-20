@@ -6,17 +6,17 @@
         class="text-sm font-semibold py-4 px-7 flex justify-between w-full cursor-pointer"
         >Layout
 
-        <label @click="dropRegionBtn" class="swap">
+        <label @click="dropLayoutClick" class="swap">
           <input type="checkbox" />
 
           <img
-            @click="dropRegionBtn"
+            @click="dropLayoutClick"
             src="../../assets/icons/arrow.svg"
             class="swap-off fill-current"
           />
 
           <img
-            @click="dropRegionBtn"
+            @click="dropLayoutClick"
             src="../../assets/icons/arrow.svg"
             class="swap-on fill-current -rotate-90"
           />
@@ -24,7 +24,7 @@
       </label>
 
       <ul
-        v-show="dropRegion"
+        v-show="dropSectionLayout"
         tabindex="0"
         class="dropdown-content w-full rounded-none menu p-2 bg-base-100 border-2 border-base-200 border-x-0 border-t-0"
       >
@@ -65,13 +65,13 @@ export default {
 
   data() {
     return {
-      dropRegion: false,
+      dropSectionLayout: false,
     };
   },
 
   methods: {
-    dropRegionBtn() {
-      this.dropRegion = !this.dropRegion;
+    dropLayoutClick() {
+      this.dropSectionLayout = !this.dropSectionLayout;
     },
   },
 };
