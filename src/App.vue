@@ -1,12 +1,14 @@
 <template>
-  <div class="flex">
+  <div class="flex justify-between">
     <MenuLeft />
     <PageEdit />
+    <MenuRight />
   </div>
 </template>
 
 <script>
 import MenuLeft from "./components/MenuLeft.vue";
+import MenuRight from "./components/MenuRight/MenuRight.vue";
 import PageEdit from "./components/PageEdit.vue";
 export default {
   name: "App",
@@ -14,6 +16,7 @@ export default {
   components: {
     MenuLeft,
     PageEdit,
+    MenuRight,
   },
 };
 </script>

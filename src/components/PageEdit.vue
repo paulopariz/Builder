@@ -1,7 +1,7 @@
 <template>
-  <div class="">
+  <div class="w-full">
     <nav
-      class="border-2 border-b-base-200 border-x-0 border-t-0 h-20 w-full bg-white flex items-center"
+      class="border-2 border-b-base-200 border-x-0 border-t-0 h-20 w-full bg-white flex items-center justify-center"
     >
       <section
         class="flex items-center gap-5 border-2 border-y-0 border-l-0 border-base-200 h-full px-5"
