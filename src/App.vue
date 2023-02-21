@@ -1,5 +1,5 @@
 <template>
-  <div class="flex">
+  <div class="flex select-none">
     <MenuLeft />
     <PageEdit />
     <MenuRight />
@@ -25,5 +25,16 @@ MenuLeft
 <style>
 body {
   font-family: "Poppins", sans-serif;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+*::-webkit-scrollbar-track {
+  background: #e1e1e1c2;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #cacaca;
+  border: 3px solid #cacaca;
 }
 </style>

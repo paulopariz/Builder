@@ -21,6 +21,8 @@
       <SpacingDrop />
 
       <SizeDrop />
+
+      <TypographyDrop />
     </div>
   </div>
 </template>
@@ -29,8 +31,9 @@
 import LayoutDrop from "./LayoutDrop.vue";
 import SizeDrop from "./SizeDrop.vue";
 import SpacingDrop from "./SpacingDrop.vue";
+import TypographyDrop from "./TypographyDrop.vue";
 export default {
-  components: { LayoutDrop, SpacingDrop, SizeDrop },
+  components: { LayoutDrop, SpacingDrop, SizeDrop, TypographyDrop },
   name: "MenuRight",
 };
 </script>

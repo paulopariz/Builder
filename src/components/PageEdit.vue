@@ -12,7 +12,7 @@
           </button>
         </div>
         <div
-          class="flex items-center py-2 px-5 gap-2 bg-base-200 rounded-xl border border-base-300"
+          class="flex items-center py-2 px-5 gap-2 bg-base-200 rounded-xl border border-base-300 cursor-pointer"
         >
           <p class="text-sm font-medium">Page: Homepage - Dipa</p>
           <img src="../assets/icons/arrow.svg" class="-rotate-90" />
@@ -52,86 +52,7 @@
 
     <div class="p-14 overflow-auto">
       <div class="w-full bg-white">
-        <div class="grid">
-          <p class="bg-purple-500">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum corrupti
-            quidem et facilis. Suscipit commodi quasi unde laudantium. Eum veniam maxime
-            facilis ducimus omnis corporis atque voluptatum a eligendi corrupti.
-          </p>
-
-          <br />
-          <span class="bg-blue-800">.</span>
-          <p class="bg-purple-500">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum corrupti
-            quidem et facilis. Suscipit commodi quasi unde laudantium. Eum veniam maxime
-            facilis ducimus omnis corporis atque voluptatum a eligendi corrupti.
-          </p>
-          <br />
-          <span class="bg-blue-800">.</span>
-          <p class="bg-purple-500">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum corrupti
-            quidem et facilis. Suscipit commodi quasi unde laudantium. Eum veniam maxime
-            facilis ducimus omnis corporis atque voluptatum a eligendi corrupti.
-          </p>
-          <br />
-          <span class="bg-blue-800">.</span>
-          <p class="bg-purple-500">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum corrupti
-            quidem et facilis. Suscipit commodi quasi unde laudantium. Eum veniam maxime
-            facilis ducimus omnis corporis atque voluptatum a eligendi corrupti.
-          </p>
-          <br />
-          <span class="bg-blue-800">.</span>
-          <p class="bg-purple-500">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum corrupti
-            quidem et facilis. Suscipit commodi quasi unde laudantium. Eum veniam maxime
-            facilis ducimus omnis corporis atque voluptatum a eligendi corrupti.
-          </p>
-          <br />
-          <span class="bg-blue-800">.</span>
-          <p class="bg-purple-500">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum corrupti
-            quidem et facilis. Suscipit commodi quasi unde laudantium. Eum veniam maxime
-            facilis ducimus omnis corporis atque voluptatum a eligendi corrupti.
-          </p>
-          <br />
-          <span class="bg-blue-800">.</span>
-          <p class="bg-purple-500">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum corrupti
-            quidem et facilis. Suscipit commodi quasi unde laudantium. Eum veniam maxime
-            facilis ducimus omnis corporis atque voluptatum a eligendi corrupti.
-          </p>
-          <br />
-          <span class="bg-blue-800">.</span>
-          <p class="bg-purple-500">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum corrupti
-            quidem et facilis. Suscipit commodi quasi unde laudantium. Eum veniam maxime
-            facilis ducimus omnis corporis atque voluptatum a eligendi corrupti.
-          </p>
-          <br />
-          <span class="bg-blue-800">.</span>
-          <p class="bg-purple-500">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum corrupti
-            quidem et facilis. Suscipit commodi quasi unde laudantium. Eum veniam maxime
-            facilis ducimus omnis corporis atque voluptatum a eligendi corrupti.
-          </p>
-          <br />
-          <span class="bg-blue-800">.</span>
-          <p class="bg-purple-500">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum corrupti
-            quidem et facilis. Suscipit commodi quasi unde laudantium. Eum veniam maxime
-            facilis ducimus omnis corporis atque voluptatum a eligendi corrupti.
-          </p>
-          <br />
-          <span class="bg-blue-800">.</span>
-          <p class="bg-purple-500">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum corrupti
-            quidem et facilis. Suscipit commodi quasi unde laudantium. Eum veniam maxime
-            facilis ducimus omnis corporis atque voluptatum a eligendi corrupti.
-          </p>
-          <br />
-          <span class="bg-blue-800">.</span>
-        </div>
+        <div class="grid select-text"></div>
       </div>
     </div>
   </div>
