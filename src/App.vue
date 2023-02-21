@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between">
+  <div class="flex">
     <MenuLeft />
     <PageEdit />
     <MenuRight />
@@ -23,7 +23,7 @@ export default {
 MenuLeft
 
 <style>
-* {
+body {
   font-family: "Poppins", sans-serif;
 }
 </style>

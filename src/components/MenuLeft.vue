@@ -1,9 +1,9 @@
 <template>
   <div
-    class="w-20 py-6 h-screen flex flex-col justify-between items-center border-2 border-base-200 bg-white"
+    class="w-20 py-6 h-screen flex flex-col justify-between items-center border-2 border-base-300 bg-white"
   >
     <div
-      class="w-full flex justify-center border-2 border-x-0 border-t-0 border-b-base-200 pb-6"
+      class="w-full flex justify-center border-2 border-x-0 border-t-0 border-b-base-300 pb-6"
     >
       <img src="../assets/icons/logo.svg" />
     </div>
