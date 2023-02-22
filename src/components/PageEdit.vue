@@ -55,15 +55,21 @@
     <div class="p-14 overflow-auto max-w-7xl">
       <div class="w-full bg-white select-text">
         <NavbarEdit />
+
+        <HeaderEdit />
+
+        <ProjectsEdit />
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import HeaderEdit from "./PageEditComponents/HeaderEdit.vue";
 import NavbarEdit from "./PageEditComponents/NavbarEdit.vue";
+import ProjectsEdit from "./PageEditComponents/ProjectsEdit.vue";
 export default {
-  components: { NavbarEdit },
+  components: { NavbarEdit, HeaderEdit, ProjectsEdit },
   name: "PageEdit",
 };
 </script>

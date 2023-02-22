@@ -6,7 +6,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-     
+     width: {
+      '100' : '465px'
+     },
+     height: {
+      '100' : '465px'
+     },
     },
   },
   plugins: [
