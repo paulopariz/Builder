@@ -11,11 +11,11 @@
     <div class="flex justify-between items-center mt-16">
       <img
         src="../../assets/img/billy.png"
-        class="w-100 h-100 rounded-md object-cover max-w-full"
+        class="w-6/6 object-cover max-w-full aspect-square"
       />
       <img
         src="../../assets/img/billy2.png"
-        class="w-100 h-100 rounded-md object-cover max-w-full"
+        class="w-6/6 object-cover max-w-full aspect-square"
       />
     </div>
   </div>

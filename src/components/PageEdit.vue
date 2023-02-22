@@ -38,7 +38,7 @@
         </button>
 
         <button class="p-3 rounded-xl hover:bg-base-200">
-          <img src="../assets/icons/smartphone.svg" class="" />
+          <img src="../assets/icons/smartphone.svg" @click="responsiveMobile" />
         </button>
       </section>
 
@@ -52,7 +52,7 @@
       </section>
     </nav>
 
-    <div class="p-14 overflow-auto max-w-7xl">
+    <div class="p-14 overflow-auto">
       <div class="w-full bg-white select-text">
         <NavbarEdit />
 
@@ -71,6 +71,13 @@ import ProjectsEdit from "./PageEditComponents/ProjectsEdit.vue";
 export default {
   components: { NavbarEdit, HeaderEdit, ProjectsEdit },
   name: "PageEdit",
+
+  methods: {
+    responsiveMobile() {
+      const x = document.getElementById("");
+      x.style.display = "none";
+    },
+  },
 };
 </script>
 
