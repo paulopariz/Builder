@@ -4,7 +4,7 @@
       <button
         class="bg-base-200 p-2 w-28 rounded-xl flex justify-center text-sm font-medium gap-3 items-center"
       >
-        <img src="../../assets/icons/invite.svg" alt="" />
+        <img src="../assets/icons/invite.svg" alt="" />
         Invite
       </button>
 
@@ -32,12 +32,12 @@
 </template>
 
 <script>
-import BackgroundDrop from "./BackgroundDrop.vue";
-import BorderDrop from "./BorderDrop.vue";
-import LayoutDrop from "./LayoutDrop.vue";
-import SizeDrop from "./SizeDrop.vue";
-import SpacingDrop from "./SpacingDrop.vue";
-import TypographyDrop from "./TypographyDrop.vue";
+import BackgroundDrop from "./MenuRightComponents/BackgroundDrop.vue";
+import BorderDrop from "./MenuRightComponents/BorderDrop.vue";
+import LayoutDrop from "./MenuRightComponents/LayoutDrop.vue";
+import SizeDrop from "./MenuRightComponents/SizeDrop.vue";
+import SpacingDrop from "./MenuRightComponents/SpacingDrop.vue";
+import TypographyDrop from "./MenuRightComponents/TypographyDrop.vue";
 export default {
   components: {
     LayoutDrop,

@@ -52,16 +52,20 @@
       </section>
     </nav>
 
-    <div class="p-14 overflow-auto">
-      <div class="w-full bg-white">
-        <div class="grid select-text"></div>
+    <div class="p-14 overflow-auto max-w-7xl">
+      <div class="w-full bg-white select-text">
+        <NavbarEdit />
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+import NavbarEdit from "./PageEditComponents/NavbarEdit.vue";
+export default {
+  components: { NavbarEdit },
+  name: "PageEdit",
+};
 </script>
 
 <style></style>

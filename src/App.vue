@@ -8,7 +8,7 @@
 
 <script>
 import MenuLeft from "./components/MenuLeft.vue";
-import MenuRight from "./components/MenuRight/MenuRight.vue";
+import MenuRight from "./components/MenuRight.vue";
 import PageEdit from "./components/PageEdit.vue";
 export default {
   name: "App",
