@@ -34,9 +34,10 @@
             class="p-2 bg-base-100 rounded-lg border-2 border-base-300 cursor-pointer hover:bg-base-200"
           />
           <img
-            src="../../assets/icons/align2.svg"
-            class="p-2 bg-base-100 rounded-lg border-2 border-base-300 cursor-pointer hover:bg-base-200"
+            src="../../assets/icons/align1.svg"
+            class="p-2 bg-base-100 rounded-lg border-2 border-base-300 cursor-pointer hover:bg-base-200 rotate-180"
           />
+
           <img
             src="../../assets/icons/align1.svg"
             class="p-2 bg-base-100 rounded-lg border-2 border-base-300 cursor-pointer hover:bg-base-200 rotate-90"
@@ -46,8 +47,8 @@
             class="p-2 bg-base-100 rounded-lg border-2 border-base-300 cursor-pointer hover:bg-base-200 -rotate-90"
           />
           <img
-            src="../../assets/icons/align1.svg"
-            class="p-2 bg-base-100 rounded-lg border-2 border-base-300 cursor-pointer hover:bg-base-200 rotate-180"
+            src="../../assets/icons/align2.svg"
+            class="p-2 bg-base-100 rounded-lg border-2 border-base-300 cursor-pointer hover:bg-base-200"
           />
           <img
             src="../../assets/icons/align2.svg"

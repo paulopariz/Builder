@@ -43,7 +43,9 @@
       </section>
 
       <section class="flex items-center gap-5 px-5 py-3.5">
-        <div class="bg-base-200 p-2 px-5 rounded-xl flex items-center gap-2">
+        <div
+          class="bg-base-200 p-2 px-5 rounded-xl flex items-center gap-2 cursor-pointer"
+        >
           <p class="text-sm font-medium">960 PX / 100%</p>
           <img src="../assets/icons/arrow.svg" class="-rotate-90" />
         </div>

@@ -25,18 +25,28 @@
       <TypographyDrop />
 
       <BorderDrop />
+
+      <BackgroundDrop />
     </div>
   </div>
 </template>
 
 <script>
+import BackgroundDrop from "./BackgroundDrop.vue";
 import BorderDrop from "./BorderDrop.vue";
 import LayoutDrop from "./LayoutDrop.vue";
 import SizeDrop from "./SizeDrop.vue";
 import SpacingDrop from "./SpacingDrop.vue";
 import TypographyDrop from "./TypographyDrop.vue";
 export default {
-  components: { LayoutDrop, SpacingDrop, SizeDrop, TypographyDrop, BorderDrop },
+  components: {
+    LayoutDrop,
+    SpacingDrop,
+    SizeDrop,
+    TypographyDrop,
+    BorderDrop,
+    BackgroundDrop,
+  },
   name: "MenuRight",
 };
 </script>
