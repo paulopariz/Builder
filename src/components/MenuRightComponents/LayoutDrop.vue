@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full border-2 border-base-300 border-x-0 border-t-0">
+  <div class="w-full border border-base-300 border-x-0 border-t-0">
     <div class="dropdown dropdown-end w-full">
       <label
         tabindex="0"
@@ -26,33 +26,33 @@
       <ul
         v-show="dropSectionLayout"
         tabindex="0"
-        class="dropdown-content w-full rounded-none menu p-2 bg-base-100 border-2 border-base-300 border-x-0 border-t-0"
+        class="dropdown-content w-full rounded-none menu p-2 bg-base-100 border border-base-300 border-x-0 border-t-0"
       >
         <div class="flex items-center justify-between p-2">
           <img
             src="../../assets/icons/align1.svg"
-            class="p-2 bg-base-100 rounded-lg border-2 border-base-300 cursor-pointer hover:bg-base-200"
+            class="p-2 bg-base-100 rounded-lg border border-base-300 cursor-pointer hover:bg-base-200"
           />
           <img
             src="../../assets/icons/align1.svg"
-            class="p-2 bg-base-100 rounded-lg border-2 border-base-300 cursor-pointer hover:bg-base-200 rotate-180"
+            class="p-2 bg-base-100 rounded-lg border border-base-300 cursor-pointer hover:bg-base-200 rotate-180"
           />
 
           <img
             src="../../assets/icons/align1.svg"
-            class="p-2 bg-base-100 rounded-lg border-2 border-base-300 cursor-pointer hover:bg-base-200 rotate-90"
+            class="p-2 bg-base-100 rounded-lg border border-base-300 cursor-pointer hover:bg-base-200 rotate-90"
           />
           <img
             src="../../assets/icons/align1.svg"
-            class="p-2 bg-base-100 rounded-lg border-2 border-base-300 cursor-pointer hover:bg-base-200 -rotate-90"
+            class="p-2 bg-base-100 rounded-lg border border-base-300 cursor-pointer hover:bg-base-200 -rotate-90"
           />
           <img
             src="../../assets/icons/align2.svg"
-            class="p-2 bg-base-100 rounded-lg border-2 border-base-300 cursor-pointer hover:bg-base-200"
+            class="p-2 bg-base-100 rounded-lg border border-base-300 cursor-pointer hover:bg-base-200"
           />
           <img
             src="../../assets/icons/align2.svg"
-            class="p-2 bg-base-100 rounded-lg border-2 border-base-300 cursor-pointer hover:bg-base-200 rotate-90"
+            class="p-2 bg-base-100 rounded-lg border border-base-300 cursor-pointer hover:bg-base-200 rotate-90"
           />
         </div>
       </ul>

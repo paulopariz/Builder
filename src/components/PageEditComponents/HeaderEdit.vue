@@ -1,6 +1,6 @@
 <template>
   <div class="mt-20 px-14">
-    <p class="text-5xl w-9/12 leading-normal font-semibold text-black">
+    <p class="text-5xl w-8/12 leading-normal font-semibold text-black">
       We craft digital products for business and user goals.
     </p>
     <p class="text-base text-gray-400 leading-9 font-medium mt-7">

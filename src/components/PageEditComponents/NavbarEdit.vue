@@ -1,18 +1,51 @@
 <template>
   <div class="px-14 pt-14">
     <nav class="flex items-center justify-between">
-      <img src="../../assets/icons/logo.png" class="w-11" />
+      <img src="../../assets/img/logo.png" class="w-11" />
       <div class="flex items-center gap-10">
         <div class="flex items-center gap-10" id="">
           <a class="text-black font-medium cursor-pointer">HTML</a>
           <a class="text-black font-medium cursor-pointer">CSS</a>
           <a class="text-black font-medium cursor-pointer">JavaScript</a>
+          <a class="text-black font-medium cursor-pointer">UI / UX</a>
         </div>
         <button
           class="btn bg-blue-600 hover:bg-blue-700 border-none capitalize rounded-full px-8 font-medium"
         >
           Hire us
         </button>
+
+        <div class="dropdown dropdown-end hidden">
+          <label
+            tabindex="0"
+            class="btn bg-transparent border-none hover:bg-transparent"
+            @click="openMenu"
+          >
+            <img src="../../assets/icons/menu.svg" class="w-7" />
+          </label>
+          <ul
+            v-show="menu"
+            tabindex="0"
+            class="dropdown-content mt-5 menu p-2 border border-base-200 shadow-lg bg-base-100 rounded-box w-52"
+          >
+            <li>
+              <a class="text-sm font-medium hover:bg-base-200 active:bg-blue-600">HTML</a>
+            </li>
+            <li>
+              <a class="text-sm font-medium hover:bg-base-200 active:bg-blue-600">CSS</a>
+            </li>
+            <li>
+              <a class="text-sm font-medium hover:bg-base-200 active:bg-blue-600"
+                >JavaScript</a
+              >
+            </li>
+            <li>
+              <a class="text-sm font-medium hover:bg-base-200 active:bg-blue-600"
+                >UI / UX</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </div>
@@ -21,6 +54,18 @@
 <script>
 export default {
   name: "NavBarEdit",
+
+  data() {
+    return {
+      menu: false,
+    };
+  },
+
+  methods: {
+    openMenu() {
+      this.menu = !this.menu;
+    },
+  },
 };
 </script>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full border-2 border-base-300 border-x-0 border-t-0">
+  <div class="w-full border border-base-300 border-x-0 border-t-0">
     <div class="dropdown dropdown-end w-full">
       <label
         tabindex="0"
@@ -26,7 +26,7 @@
       <ul
         v-show="dropSectionBorder"
         tabindex="0"
-        class="dropdown-content w-full rounded-none menu p-2 bg-base-100 border-2 border-base-300 border-x-0 border-t-0"
+        class="dropdown-content w-full rounded-none menu p-2 bg-base-100 border border-base-300 border-x-0 border-t-0"
       >
         <div class="grid grid-cols-5 place-items-center gap-y-4 p-2">
           <div class="p-2 bg-neutral-900 w-5 h-5 rounded-lg cursor-pointer border" />

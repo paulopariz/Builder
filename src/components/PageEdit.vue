@@ -1,14 +1,14 @@
 <template>
   <div class="w-full bg-base-200 h-screen flex flex-col items-center">
     <nav
-      class="border-2 border-b-base-300 border-x-0 border-t-0 flex justify-center items-center mt-0.5 w-full bg-white"
+      class="border border-b-base-300 border-x-0 border-t-0 flex justify-center items-center w-full bg-white mt-0.1"
     >
       <section
-        class="flex items-center gap-5 border-2 border-y-0 border-l-0 border-base-300 px-5 py-3.5"
+        class="flex items-center gap-5 border border-y-0 border-l-0 border-base-300 px-5 py-3.5"
       >
         <div>
           <button class="bg-base-200 p-2 rounded-xl">
-            <img src="../assets/icons/arrow.svg" class="w-8" />
+            <img src="../assets/icons/arrow.svg" class="w-7" />
           </button>
         </div>
         <div
@@ -27,7 +27,7 @@
       </section>
 
       <section
-        class="flex items-center gap-5 border-2 border-y-0 border-l-0 border-base-300 px-5 py-3.5"
+        class="flex items-center gap-5 border border-y-0 border-l-0 border-base-300 px-5 py-3.5"
       >
         <button class="p-3 rounded-xl hover:bg-base-200">
           <img src="../assets/icons/desktop.svg" class="" />

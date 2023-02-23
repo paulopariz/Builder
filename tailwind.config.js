@@ -13,6 +13,10 @@ module.exports = {
      height: {
       '100' : '465px'
      },
+
+     margin: {
+      '0.1': '1px'
+     }
     },
   },
   plugins: [

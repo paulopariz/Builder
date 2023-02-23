@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full border-2 border-base-300 border-x-0 border-t-0">
+  <div class="w-full border border-base-300 border-x-0 border-t-0">
     <div class="dropdown dropdown-end w-full">
       <label
         tabindex="0"
@@ -26,23 +26,23 @@
       <ul
         v-show="dropSectionTypography"
         tabindex="0"
-        class="dropdown-content w-full rounded-none menu p-2 bg-base-100 border-2 border-base-300 border-x-0 border-t-0"
+        class="dropdown-content w-full rounded-none menu p-2 bg-base-100 border border-base-300 border-x-0 border-t-0"
       >
         <div class="flex items-center justify-between p-2">
           <div
-            class="p-2 bg-base-100 rounded-lg border-2 border-base-300 cursor-pointer hover:bg-base-200 text-sm font-sans font-semibold tracking-wider w-20 flex justify-center items-center"
+            class="p-2 bg-base-100 rounded-lg border border-base-300 cursor-pointer hover:bg-base-200 text-sm font-sans font-semibold tracking-wider w-20 flex justify-center items-center"
           >
             Sans
           </div>
 
           <div
-            class="p-2 bg-base-100 rounded-lg border-2 border-base-300 cursor-pointer hover:bg-base-200 text-sm font-serif font-semibold tracking-wider w-20 flex justify-center items-center"
+            class="p-2 bg-base-100 rounded-lg border border-base-300 cursor-pointer hover:bg-base-200 text-sm font-serif font-semibold tracking-wider w-20 flex justify-center items-center"
           >
             Serif
           </div>
 
           <div
-            class="p-2 bg-base-100 rounded-lg border-2 border-base-300 cursor-pointer hover:bg-base-200 text-sm font-mono font-semibold tracking-wider w-20 flex justify-center items-center"
+            class="p-2 bg-base-100 rounded-lg border border-base-300 cursor-pointer hover:bg-base-200 text-sm font-mono font-semibold tracking-wider w-20 flex justify-center items-center"
           >
             Mono
           </div>

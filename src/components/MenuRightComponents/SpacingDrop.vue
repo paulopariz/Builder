@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full border-2 border-base-300 border-x-0 border-t-0">
+  <div class="w-full border border-base-300 border-x-0 border-t-0">
     <div class="dropdown dropdown-end w-full">
       <label
         tabindex="0"
@@ -26,7 +26,7 @@
       <ul
         v-show="dropSectionSpacing"
         tabindex="0"
-        class="dropdown-content w-full rounded-none menu p-3 bg-base-100 border-2 border-base-300 border-x-0 border-t-0"
+        class="dropdown-content w-full rounded-none menu p-3 bg-base-100 border border-base-300 border-x-0 border-t-0"
       >
         <div class="border-2 border-base-300 rounded-xl border-dashed p-4">
           <span style="font-size: 9px" class="text-gray-500 font-medium absolute"
