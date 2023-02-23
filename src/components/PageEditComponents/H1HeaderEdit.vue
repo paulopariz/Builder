@@ -17,19 +17,19 @@
     </div>
     <div class="w-full flex justify-between edit">
       <div
-        class="bg-white -ml-2 w-2 h-2 -mt-2 border-2 border-transparent editSquare text-transparent cursor-nwse-resize"
+        class="bg-white squareEditOne -ml-2 w-2 h-2 -mt-2 border-2 border-transparent editSquare text-transparent cursor-nwse-resize"
         contenteditable="false"
       >
         .
       </div>
       <div
-        class="bg-white w-2 h-2 -mt-1 border-2 border-transparent editSquare text-transparent cursor-ns-resize"
+        class="bg-white squareEditTwo w-2 h-2 -mt-1 border-2 border-transparent editSquare text-transparent cursor-ns-resize"
         contenteditable="false"
       >
         .
       </div>
       <div
-        class="bg-white -mr-2 w-2 h-2 -mt-2 border-2 border-transparent editSquare text-transparent cursor-nesw-resize"
+        class="bg-white squareEditThree -mr-2 w-2 h-2 -mt-2 border-2 border-transparent editSquare text-transparent cursor-nesw-resize"
         contenteditable="false"
       >
         .
@@ -44,19 +44,19 @@
     </h1>
     <div class="w-full flex justify-between edit">
       <div
-        class="bg-white -ml-2 w-2 h-2 mt-2 border-2 border-transparent editSquare text-transparent cursor-nesw-resize"
+        class="bg-white squareEditFour -ml-2 w-2 h-2 mt-2 border-2 border-transparent editSquare text-transparent cursor-nesw-resize"
         contenteditable="false"
       >
         .
       </div>
       <div
-        class="bg-white w-2 h-2 mt-1.5 border-2 border-transparent editSquare text-transparent cursor-ns-resize"
+        class="bg-white squareEditFive w-2 h-2 mt-1.5 border-2 border-transparent editSquare text-transparent cursor-ns-resize"
         contenteditable="false"
       >
         .
       </div>
       <div
-        class="bg-white -mr-2 w-2 h-2 mt-2 border-2 border-transparent editSquare text-transparent cursor-nwse-resize"
+        class="bg-white squareEditSix -mr-2 w-2 h-2 mt-2 border-2 border-transparent editSquare text-transparent cursor-nwse-resize"
         contenteditable="false"
       >
         .

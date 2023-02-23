@@ -12,7 +12,7 @@
       >
         Let's work together</button
       ><button
-        class="btn text-blue-600 bg-white hover:bg-base-200 hover:border-base-300 border-2 border-base-300 normal-case rounded-full h-16 px-9 font-medium flex items-center justify-center buttonTwo"
+        class="btn text-blue-600 bg-transparent hover:bg-transparent hover:border-base-300 border-2 border-base-300 normal-case rounded-full h-16 px-9 font-medium flex items-center justify-center buttonTwo"
       >
         Check our work
       </button>

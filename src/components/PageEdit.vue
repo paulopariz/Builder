@@ -99,7 +99,9 @@ export default {
       menuDesktop.style.display = "none";
       menuMobile.style.display = "block";
       header.style.padding = "0px 23px";
-      HireUs.style.display = "none";
+      HireUs.style.padding = "1px 25px";
+      HireUs.style.fontSize = "13px";
+      HireUs.style.marginRight = "-18px";
       titleH1.style.fontSize = "30px";
       desc.style.fontSize = "14px";
       desc.style.lineHeight = "24px";
