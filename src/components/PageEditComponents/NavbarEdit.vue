@@ -1,9 +1,9 @@
 <template>
-  <div class="px-14 pt-14">
+  <div class="px-14 pt-14" id="navbar">
     <nav class="flex items-center justify-between">
       <img src="../../assets/img/logo.png" class="w-11" />
       <div class="flex items-center gap-10">
-        <div class="flex items-center gap-10" id="">
+        <div class="flex items-center gap-10" id="menuDesktop">
           <a class="text-black font-medium cursor-pointer">HTML</a>
           <a class="text-black font-medium cursor-pointer">CSS</a>
           <a class="text-black font-medium cursor-pointer">JavaScript</a>
@@ -11,14 +11,15 @@
         </div>
         <button
           class="btn bg-blue-600 hover:bg-blue-700 border-none capitalize rounded-full px-8 font-medium"
+          id="HireUsBtn"
         >
           Hire us
         </button>
 
-        <div class="dropdown dropdown-end hidden">
+        <div class="dropdown dropdown-end hidden" id="menuMobile">
           <label
             tabindex="0"
-            class="btn bg-transparent border-none hover:bg-transparent"
+            class="btn bg-transparent border-none hover:bg-transparent p-0"
             @click="openMenu"
           >
             <img src="../../assets/icons/menu.svg" class="w-7" />

@@ -5,7 +5,7 @@
     id="title"
   >
     <div
-      class="ml-8 absolute -mt-9 bg-transparent w-36 h-9 flex justify-center items-center gap-3 rounded-md rounded-b-none py-1.5 px-4 x"
+      class="ml-8 -mt-9 bg-transparent w-36 h-9 flex justify-center items-center gap-3 rounded-md rounded-b-none py-1.5 px-4 x"
     >
       <p
         class="text-xs font-medium text-white hidden editHeroTitle"
@@ -17,30 +17,50 @@
     </div>
     <div class="w-full flex justify-between edit">
       <div
-        class="bg-white -ml-2 w-2 h-2 -mt-2 border-2 border-transparent editSquare cursor-nwse-resize"
-      ></div>
+        class="bg-white -ml-2 w-2 h-2 -mt-2 border-2 border-transparent editSquare text-transparent cursor-nwse-resize"
+        contenteditable="false"
+      >
+        .
+      </div>
       <div
-        class="bg-white w-2 h-2 -mt-1 border-2 border-transparent editSquare cursor-ns-resize"
-      ></div>
+        class="bg-white w-2 h-2 -mt-1 border-2 border-transparent editSquare text-transparent cursor-ns-resize"
+        contenteditable="false"
+      >
+        .
+      </div>
       <div
-        class="bg-white -mr-2 w-2 h-2 -mt-2 border-2 border-transparent editSquare cursor-nesw-resize"
-      ></div>
+        class="bg-white -mr-2 w-2 h-2 -mt-2 border-2 border-transparent editSquare text-transparent cursor-nesw-resize"
+        contenteditable="false"
+      >
+        .
+      </div>
     </div>
-    <h1 class="text-5xl leading-normal font-semibold text-black outline-blue-600">
-      We craft digital products for
-      <br />
-      business and user goals.
+    <h1
+      class="text-5xl max-w-3xl max-h-36 leading-normal font-semibold text-black outline-blue-600"
+      contenteditable="false"
+      id="titleH1"
+    >
+      We craft digital products for business and user goals.
     </h1>
     <div class="w-full flex justify-between edit">
       <div
-        class="bg-white -ml-2 w-2 h-2 mt-2 border-2 border-transparent editSquare cursor-nesw-resize"
-      ></div>
+        class="bg-white -ml-2 w-2 h-2 mt-2 border-2 border-transparent editSquare text-transparent cursor-nesw-resize"
+        contenteditable="false"
+      >
+        .
+      </div>
       <div
-        class="bg-white w-2 h-2 mt-1.5 border-2 border-transparent editSquare cursor-ns-resize"
-      ></div>
+        class="bg-white w-2 h-2 mt-1.5 border-2 border-transparent editSquare text-transparent cursor-ns-resize"
+        contenteditable="false"
+      >
+        .
+      </div>
       <div
-        class="bg-white -mr-2 w-2 h-2 mt-2 border-2 border-transparent editSquare cursor-nwse-resize"
-      ></div>
+        class="bg-white -mr-2 w-2 h-2 mt-2 border-2 border-transparent editSquare text-transparent cursor-nwse-resize"
+        contenteditable="false"
+      >
+        .
+      </div>
     </div>
   </div>
 </template>
@@ -67,5 +87,10 @@ export default {
       }
     }
   }
+}
+h1 {
+  max-width: 30ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 </style>

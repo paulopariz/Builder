@@ -29,7 +29,7 @@
       <section
         class="flex items-center gap-5 border border-y-0 border-l-0 border-base-300 px-5 py-3.5"
       >
-        <button class="p-3 rounded-xl hover:bg-base-200">
+        <button class="p-3 rounded-xl hover:bg-base-200" @click="xxx">
           <img src="../assets/icons/desktop.svg" class="" />
         </button>
 
@@ -37,8 +37,8 @@
           <img src="../assets/icons/tablet.svg" class="" />
         </button>
 
-        <button class="p-3 rounded-xl hover:bg-base-200">
-          <img src="../assets/icons/smartphone.svg" @click="responsiveMobile" />
+        <button class="p-3 rounded-xl hover:bg-base-200" @click="responsiveMobile">
+          <img src="../assets/icons/smartphone.svg" />
         </button>
       </section>
 
@@ -53,7 +53,7 @@
     </nav>
 
     <div class="p-14 overflow-auto">
-      <div class="w-full bg-white select-text">
+      <div class="w-full bg-white select-text" id="content">
         <NavbarEdit />
 
         <HeaderEdit />
@@ -74,8 +74,55 @@ export default {
 
   methods: {
     responsiveMobile() {
-      const x = document.getElementById("");
-      x.style.display = "none";
+      const menuMobile = document.getElementById("menuMobile");
+      const menuDesktop = document.getElementById("menuDesktop");
+      const content = document.getElementById("content");
+      const navbar = document.getElementById("navbar");
+      const header = document.getElementById("header");
+      const HireUs = document.getElementById("HireUsBtn");
+      const titleH1 = document.getElementById("titleH1");
+      const desc = document.getElementById("desc");
+      const sectionButtons = document.getElementById("sectionButtons");
+      const buttonOne = document.querySelector(".buttonOne");
+      const buttonTwo = document.querySelector(".buttonTwo");
+
+      const projects = document.getElementById("projects");
+      const checkWork = document.getElementById("checkWork");
+      const projectsTitle = document.getElementById("projectsTitle");
+
+      const imgs = document.getElementById("imgs");
+      const imgOne = document.getElementById("imgOne");
+      const imgTwo = document.getElementById("imgTwo");
+
+      content.style.maxWidth = "448px";
+      navbar.style.padding = "50px 23px 0px 23px";
+      menuDesktop.style.display = "none";
+      menuMobile.style.display = "block";
+      header.style.padding = "0px 23px";
+      HireUs.style.display = "none";
+      titleH1.style.fontSize = "30px";
+      desc.style.fontSize = "14px";
+      desc.style.lineHeight = "24px";
+
+      sectionButtons.style.justifyContent = "center";
+      buttonOne.style.height = "40px";
+      buttonOne.style.fontSize = "12px";
+      buttonTwo.style.height = "40px";
+      buttonTwo.style.fontSize = "12px";
+
+      projects.style.padding = "36px 23px";
+      checkWork.style.display = "grid";
+      checkWork.style.placeItems = "start";
+      checkWork.style.fontSize = "14px";
+      projectsTitle.style.fontSize = "28px";
+
+      imgs.style.flexDirection = "column";
+      imgOne.style.width = "100%";
+      imgTwo.style.width = "100%";
+    },
+
+    xxx() {
+      location.reload();
     },
   },
 };
