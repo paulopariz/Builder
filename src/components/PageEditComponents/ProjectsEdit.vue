@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-20 px-14 py-9 bg-gray-50" id="projects">
+  <div class="mt-20 px-14 py-9" style="background-color: #f9fafb" id="projects">
     <span class="text-sm text-gray-400 font-light">OUR PROJECTS</span>
 
     <div class="flex items-center justify-between mt-3" id="checkWork">

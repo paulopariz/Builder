@@ -28,23 +28,36 @@
         tabindex="0"
         class="dropdown-content w-full rounded-none menu p-2 bg-base-100 border border-base-300 border-x-0 border-t-0"
       >
-        <div class="flex items-center justify-between p-2">
+        <div class="grid grid-cols-3 place-items-center gap-y-3 p-2">
           <div
-            class="p-2 bg-base-100 rounded-lg border border-base-300 cursor-pointer hover:bg-base-200 text-sm font-sans font-semibold tracking-wider w-20 flex justify-center items-center"
+            class="p-2 bg-base-100 rounded-lg border border-base-300 cursor-pointer hover:bg-base-200 text-sm font-semibold tracking-wider w-20 flex justify-center items-center"
+            style="font-family: sans-serif"
+            @click="fontSans"
           >
             Sans
           </div>
 
           <div
-            class="p-2 bg-base-100 rounded-lg border border-base-300 cursor-pointer hover:bg-base-200 text-sm font-serif font-semibold tracking-wider w-20 flex justify-center items-center"
+            class="p-2 bg-base-100 rounded-lg border border-base-300 cursor-pointer hover:bg-base-200 text-sm font-semibold tracking-wider w-20 flex justify-center items-center"
+            style="font-family: serif"
+            @click="fontSerif"
           >
             Serif
           </div>
 
           <div
-            class="p-2 bg-base-100 rounded-lg border border-base-300 cursor-pointer hover:bg-base-200 text-sm font-mono font-semibold tracking-wider w-20 flex justify-center items-center"
+            class="p-2 bg-base-100 rounded-lg border border-base-300 cursor-pointer hover:bg-base-200 text-sm font-semibold tracking-wider w-20 flex justify-center items-center"
+            style="font-family: monospace"
+            @click="fontMono"
           >
             Mono
+          </div>
+          <div
+            class="p-2 bg-base-100 rounded-lg border border-base-300 cursor-pointer hover:bg-base-200 text-sm font-semibold tracking-wider w-20 flex justify-center items-center"
+            style="font-family: 'Poppins', sans-serif"
+            @click="fontPoppins"
+          >
+            Poppins
           </div>
         </div>
       </ul>
@@ -65,6 +78,19 @@ export default {
   methods: {
     dropTypographyClick() {
       this.dropSectionTypography = !this.dropSectionTypography;
+    },
+
+    fontSans() {
+      document.getElementById("titleH1").style.fontFamily = "sans-serif";
+    },
+    fontSerif() {
+      document.getElementById("titleH1").style.fontFamily = "serif";
+    },
+    fontMono() {
+      document.getElementById("titleH1").style.fontFamily = "monospace";
+    },
+    fontPoppins() {
+      document.getElementById("titleH1").style.fontFamily = "'Poppins', sans-serif";
     },
   },
 };

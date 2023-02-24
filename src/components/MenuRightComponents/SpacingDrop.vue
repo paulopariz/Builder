@@ -36,7 +36,7 @@
             <span class="text-xs font-medium markTop">20</span>
             <div class="flex items-center w-full">
               <span class="text-xs font-medium ml-7">0</span>
-              <div class="border-2 border-blue-600 w-1/2 m-auto p-2 rounded-xl">
+              <div class="border-2 border-red-600 w-1/2 m-auto p-2 rounded-xl">
                 <div class="flex flex-col justify-center items-center gap-2">
                   <span class="text-xs font-medium">0</span>
                   <div class="flex items-center gap-3">
@@ -91,7 +91,7 @@ export default {
   margin-top: 50px;
   background: #fff;
   border-radius: 2px;
-  border: 2px solid #2563eb;
+  border: 2px solid #dc2626;
 }
 
 .markTop {
@@ -123,6 +123,10 @@ export default {
     @include befores();
     margin-top: 0;
     margin-right: 35px;
+
+    @media (max-width: 1620px) {
+      margin-right: 23px;
+    }
   }
 }
 .markRight {
@@ -133,6 +137,10 @@ export default {
     @include befores();
     margin-top: 0;
     margin-left: 35px;
+
+    @media (max-width: 1620px) {
+      margin-left: 23px;
+    }
   }
 }
 </style>

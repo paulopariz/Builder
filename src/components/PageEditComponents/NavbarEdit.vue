@@ -1,7 +1,8 @@
 <template>
   <div class="px-14 pt-14" id="navbar">
     <nav class="flex items-center justify-between">
-      <img src="../../assets/img/logo.png" class="w-11" />
+      <img src="../../assets/img/logoBlue.svg" class="w-11" id="logoBlue" />
+      <img src="../../assets/img/logoWhite.svg" class="w-11 hidden" id="logoWhite" />
       <div class="flex items-center gap-10">
         <div class="flex items-center gap-10 text-black font-medium" id="menuDesktop">
           <a class="cursor-pointer">HTML</a>
@@ -10,7 +11,7 @@
           <a class="cursor-pointer">UI / UX</a>
         </div>
         <button
-          class="btn bg-blue-600 hover:bg-blue-700 border-none capitalize rounded-full px-8 font-medium"
+          class="btn bg-blue-600 hover:bg-blue-700 border-none capitalize rounded-full px-8 font-medium transition-none"
           id="HireUsBtn"
         >
           Hire us

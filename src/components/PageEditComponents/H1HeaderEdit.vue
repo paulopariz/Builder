@@ -74,16 +74,16 @@ export default {
 <style lang="scss">
 #title {
   &:focus {
-    border-color: #2563eb;
+    border-color: #dc2626;
     .x {
-      background: #2563eb;
+      background: #dc2626;
       .editHeroTitle {
         display: block;
       }
     }
     .edit {
       .editSquare {
-        border-color: #2563eb;
+        border-color: #dc2626;
       }
     }
   }

@@ -8,11 +8,11 @@
     </p>
     <div class="mt-7 flex items-center gap-5" id="sectionButtons">
       <button
-        class="btn bg-blue-600 hover:bg-blue-700 border-none normal-case rounded-full h-16 px-9 font-medium flex items-center justify-center buttonOne"
+        class="btn bg-blue-600 hover:bg-blue-700 border-none normal-case rounded-full h-16 px-9 font-medium flex items-center justify-center buttonOne transition-none"
       >
         Let's work together</button
       ><button
-        class="btn text-blue-600 bg-transparent hover:bg-transparent hover:border-base-300 border-2 border-base-300 normal-case rounded-full h-16 px-9 font-medium flex items-center justify-center buttonTwo"
+        class="btn text-blue-600 bg-transparent hover:bg-transparent hover:border-base-300 border-2 border-base-300 normal-case rounded-full h-16 px-9 font-medium flex items-center justify-center buttonTwo transition-none"
       >
         Check our work
       </button>

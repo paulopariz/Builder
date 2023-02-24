@@ -9,13 +9,15 @@
       </button>
 
       <button
-        class="bg-blue-600 text-white p-2 w-28 rounded-xl flex items-center justify-center text-sm font-medium"
+        class="bg-red-600 text-white p-2 w-28 rounded-xl flex items-center justify-center text-sm font-medium"
       >
         Publish
       </button>
     </div>
 
     <div>
+      <SelectorH1 />
+
       <LayoutDrop />
 
       <SpacingDrop />
@@ -32,12 +34,13 @@
 </template>
 
 <script>
-import BackgroundDrop from "./MenuRightComponents/BackgroundDrop.vue";
+import BackgroundDrop from "./MenuRightComponents/ThemeDrop.vue";
 import BorderDrop from "./MenuRightComponents/BorderDrop.vue";
 import LayoutDrop from "./MenuRightComponents/LayoutDrop.vue";
 import SizeDrop from "./MenuRightComponents/SizeDrop.vue";
 import SpacingDrop from "./MenuRightComponents/SpacingDrop.vue";
 import TypographyDrop from "./MenuRightComponents/TypographyDrop.vue";
+import SelectorH1 from "./MenuRightComponents/SelectorH1.vue";
 export default {
   components: {
     LayoutDrop,
@@ -46,6 +49,7 @@ export default {
     TypographyDrop,
     BorderDrop,
     BackgroundDrop,
+    SelectorH1,
   },
   name: "MenuRight",
 };
