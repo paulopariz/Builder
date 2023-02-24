@@ -31,7 +31,9 @@
           <span class="font-semibold text-sm">{{ icon.tooltip }}</span>
         </div>
       </div>
-      <img src="../assets/icons/perfil.jpeg" class="w-9 h-9 rounded-full" />
+      <a href="https://www.linkedin.com/in/paulopariz/" target="_blank"
+        ><img src="../assets/icons/perfil.jpeg" class="w-9 h-9 rounded-full"
+      /></a>
     </div>
   </div>
 </template>
