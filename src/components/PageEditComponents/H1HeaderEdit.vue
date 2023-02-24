@@ -6,10 +6,11 @@
   >
     <div
       class="ml-8 -mt-9 bg-transparent w-36 h-9 flex justify-center items-center gap-3 rounded-md rounded-b-none py-1.5 px-4 x"
+      contenteditable="false"
+
     >
       <p
         class="text-xs font-medium text-white hidden editHeroTitle"
-        contenteditable="false"
       >
         H1 - hero title
       </p>
